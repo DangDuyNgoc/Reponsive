@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    width: 300px;
+    height: 30%;
+    display: block;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 10px 0 0 #fff;
+    animation: text 4s steps(19) infinite;
+}
+
+@keyframes text {
+    0% {
+        width:  1px;
+    }
+    100% {
+        width: 204.02px;
+    }
+}
